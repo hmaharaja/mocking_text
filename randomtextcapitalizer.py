@@ -34,9 +34,7 @@ def main():
     print("Type your text here (type q to quit): ")
     instr = input()
 
-    if(instr.isdigit()):
-      print("Mate, put in some TEXT")
-    else:
+    if(instr != "q"):
       print(mocking_tone(instr))
 
 if __name__ == "__main__":
